@@ -29,13 +29,9 @@
     cursor: pointer;
 }
 
-.service-info {
-    display: none;
+#tooltip_text  {
+    margin-bottom: 0;
 }
-
-    .service-info p {
-        margin-bottom: 0;
-    }
 
 .testimonial {
     margin: auto;
