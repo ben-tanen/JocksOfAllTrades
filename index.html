@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/jBox.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -43,7 +44,7 @@
         </div>
     </div>
 
-    <div class="container lg-bottom-buffer">
+    <div class="container lg-bottom-buffer" id='services'>
         <div class="row text-center md-bottom-buffer">
             <h2>Our Services</h2>
             <p>These are the services that we offer. Hover over their title to view more information and what we charge.</p>
@@ -139,7 +140,7 @@
         </div>
     </div>
 
-    <div class="container lg-bottom-buffer">
+    <div class="container lg-bottom-buffer" id='testimonials'>
         <div class="row text-center sm-bottom-buffer">
             <h2>Testimonials</h2>
         </div>
@@ -169,12 +170,12 @@
         </div>
     </div>
 
-    <div class="container lg-bottom-buffer">
+    <div class="container lg-bottom-buffer" id='about-us'>
         <div class="row text-center sm-bottom-buffer">
             <h2>About Us</h2>
         </div>
         
-        <div class="row sm-bottom-buffer">
+        <div class="row text-center sm-bottom-buffer">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
 
@@ -182,42 +183,45 @@
             <div class="col-sm-4">
                 <img class="img-circle" id='about' src="https://scontent-lga.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10845922_10153349030278154_3631551391709732350_n.jpg?oh=2a066646004f458230cf2b535da4f9b1&oe=558D17E2" alt="A Picture of Blake">
                 <h3>Blake Coolidge</h3>
+                <p>This is a bio. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
             </div>
             <div class="col-sm-4">
                 <img class="img-circle" id='about' src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image">
                 <h3>Person #2</h3>
+                <p>This is a bio. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
             </div>
             <div class="col-sm-4">
                 <img class="img-circle" id='about' src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image">
                 <h3>Person #3</h3>
+                <p>This is a bio. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
             </div>
         </div>
     </div>
 
-    <div class="container lg-bottom-buffer">
+    <div class="container lg-bottom-buffer" id='contact'>
         <div class="row text-center sm-bottom-buffer">
             <h2>Contact Us</h2>
         </div>
 
-        <div class="row sm-bottom-buffer">
-            <div class="input-group">
-                <span class="input-group-addon" id="basic-addon1">Name</span>
-                <input type="text" class="form-control" aria-describedby="basic-addon1">
-            </div>
-        </div>
+        <div class="row lg-bottom-buffer">
+            <div class='col-sm-3'></div>
+            <div class='col-md-6'>
+                <div class="input-group sm-bottom-buffer">
+                    <span class="input-group-addon" id="basic-addon1">Name</span>
+                    <input type="text" class="form-control" aria-describedby="basic-addon1">
+                </div>
 
-        <div class="row sm-bottom-buffer">
-            <div class="input-group">
-                <span class="input-group-addon" id="basic-addon2">E-mail </span>
-                <input type="text" class="form-control" aria-describedby="basic-addon1">
-            </div>
-        </div>
+                <div class="input-group sm-bottom-buffer">
+                    <span class="input-group-addon" id="basic-addon2">E-mail </span>
+                    <input type="text" class="form-control" aria-describedby="basic-addon1">
+                </div>
 
-        <div class="row sm-bottom-buffer">
-            <div class="input-group">
-                <span class="input-group-addon">Subject</span>
-                <input type="text" class="form-control">
+                <div class="input-group sm-bottom-buffer">
+                    <span class="input-group-addon">Subject</span>
+                    <input type="text" class="form-control">
+                </div>
             </div>
+            <div class='col-sm-3'></div>
         </div>
     </div>
 
